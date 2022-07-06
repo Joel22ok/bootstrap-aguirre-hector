@@ -1,0 +1,27 @@
+#accordionFlushExample:hover{
+    transform: translateY(-4%);
+    box-shadow: 3px black;
+}
+
+iframe:hover{
+    transform: scale(1.10);
+}
+
+.nav-link{
+    color: black;
+    transition: all 0.5 linear;
+}
+.nav-link:hover{
+    background-color: blanchedalmond;
+    border-radius: 7px;
+}
+
+.card{
+      border-radius: 15px;
+    }
+
+.card:hover{
+      transform: scale(1.1);
+       border-radius: 15%;
+    
+    }
