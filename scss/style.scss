@@ -1,8 +1,70 @@
 @import'./bases/variables';
-@import './componentes/animaciones';
-@import './componentes/fondos';
-@import './componentes/header-footer';
 @import './componentes/seccion';
+@import './componentes/animaciones';
+@import './componentes/header-footer';
+
+
+
+
+/*clases para aplicar extends*/
+.division{
+    border-radius: 15px;
+    margin: 7px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cartitas{
+        padding: 15px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+/*aplicar mixin*/
+@mixin material {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.info{
+    @include material;
+}
+    
+/*map*/
+$fondos:(
+  ingles:gray,
+  italiano:green,  
+  frances:blue,
+  portugues:red,
+
+);
+
+#ingles{
+    background-color: map-get($fondos, ingles );
+}
+
+#italiano{
+    background-color: map-get($fondos , italiano );
+}
+
+#frances{
+    background-color: map-get($fondos , frances );
+}
+
+#portugues{
+    background-color: map-get($fondos , portugues );
+}
 
 
 
@@ -10,6 +72,7 @@
 
 
 
+    
+   
 
-
-
+        
