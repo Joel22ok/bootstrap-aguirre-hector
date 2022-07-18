@@ -43,29 +43,22 @@
     
 /*map*/
 $fondos:(
-  ingles:gray,
+  ingles:rgba(183, 201, 235, 0.836),
   italiano:green,  
   frances:blue,
   portugues:red,
 
 );
 
-#ingles{
+#secundario{
     background-color: map-get($fondos, ingles );
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-#italiano{
-    background-color: map-get($fondos , italiano );
+#principal{
+    background-color:rgb(173, 173, 165);
+    font-family: 'Nunito Sans', sans-serif;
 }
-
-#frances{
-    background-color: map-get($fondos , frances );
-}
-
-#portugues{
-    background-color: map-get($fondos , portugues );
-}
-
 
 
 
