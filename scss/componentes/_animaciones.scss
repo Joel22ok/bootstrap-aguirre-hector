@@ -4,31 +4,34 @@
     transition-delay: 0,5s;
     
 }
-a{
+.nav-link{
     transition: .3s;
 }
-a:hover{
+.nav-link:hover{
     left: -10%;
 }
-a:hover{
+.nav-link:hover{
     background-color: beige;
-    text-decoration: underline;
     border-radius:5px ;
 
 }
 footer:hover{
     background-color: beige;
-    transition-delay: .5s;
+    transition-delay: .3s;
 }
 
 iframe:hover{
     transform: scale(1.05);
-    transition-delay: .5s;
+    transition-delay: .8s;
     border-radius: 8px;
 }
+.carta_1:hover{
+    transform: scale(1.03);
+    transition-delay: .5s;
 
- 
-.carta_4:hover{
+}
+
+.carta_2:hover{
     transform: scale(1.03);
     transition-delay: .5s;
 
@@ -39,22 +42,26 @@ iframe:hover{
     transition-delay: .5s;
 
 }
-.carta_2:hover{
+
+.cart_1{
     transform: scale(1.03);
     transition-delay: .5s;
 
 }
-.carta_1:hover{
+.cart_2{
     transform: scale(1.03);
     transition-delay: .5s;
 
 }
-.card{
-      border-radius: 15px;
-    }
 
-.card:hover{
-      transform: scale(1.03);
-       border-radius: 15%;
-       
+#boton{
+    border-radius: 5px;
+    background-color: rgb(217, 217, 235);
+
+}
+#boton:hover{
+    transform: scale(1.08);
+}
+a{
+   color: #000; 
 }
